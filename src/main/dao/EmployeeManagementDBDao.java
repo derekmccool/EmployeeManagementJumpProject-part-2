@@ -2,6 +2,7 @@ package main.dao;
 
 import java.util.List;
 
+import main.models.Department;
 import main.models.Employee;
 
 public interface EmployeeManagementDBDao {
@@ -16,5 +17,7 @@ public interface EmployeeManagementDBDao {
 	void setEmployees();
 	void readDataFromDB();
 	void writeDataToDB();
+	List<Department> getAllDepartments();
+	Department getDepartment(int deptId);
 
 }

@@ -5,7 +5,9 @@ import java.util.HashMap;
 import main.exceptions.DepartmentCreationException;
 import main.exceptions.EmployeeCreationException;
 
+
 public class Employee {
+	
 	
 	static int counter = 1;
 	

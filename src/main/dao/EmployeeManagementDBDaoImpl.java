@@ -36,8 +36,8 @@ public class EmployeeManagementDBDaoImpl implements EmployeeManagementDBDao {
 
                 while(rs.next()){
                     int id = rs.getInt("id");
-                    int deptId = rs.getInt("departmentId");
-                    String name = rs.getString("name");
+                    int deptId = rs.getInt("department_id");
+                    String name = rs.getString("emp_name");
                     String title = rs.getString("title");
                     int salary = rs.getInt("salary");
                     // Employee emp = new Employee();
